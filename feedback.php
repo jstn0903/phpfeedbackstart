@@ -72,7 +72,7 @@
             if ($result->num_rows > 0) {
                 while($row = $result->fetch_assoc()) {
                     echo "<div class='card mb-3'>
-                            <div class='card-body text-center mt-5 mb-5'>
+                            <div class='card-body text-center my-5'>
                             <p class='card-text'>" . $row["feedback"]. "</p>
                             <h5 class='card-title'>" . $row["name"]. "</h5>
                             <h6 class='card-subtitle mb-2 text-muted'>" . htmlspecialchars($row["reg_date"]) . "</h6>
